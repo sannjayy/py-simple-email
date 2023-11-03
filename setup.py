@@ -19,32 +19,24 @@ classifiers = [
  
 setup(
   name='py_simple_email',
-  version='0.0.6',
-  description='CSV File Info List Generator from Folders and Subfolders',
+  version='1.0.0',
+  description='Python Simple Fast Email Sending without External Libs',
   long_description=long_description,
   long_description_content_type="text/markdown",
-  url='https://github.com/sannjayy/python_export_file_info',  
+  url='https://github.com/sannjayy/py-simple-email',  
   author='Sanjay Sikdar',
-  author_email='hello@znas.in',
+  author_email='me@sanjaysikdar.dev',
   license='MIT', 
   classifiers=classifiers,
-  keywords='python, export, file info, csv', 
+  keywords='python, smtp, email send, python send email', 
   packages=find_packages(where="src"),
-  python_requires=">=3.7, <4",   
+  python_requires=">=3.8, <4",   
   package_dir={'':'src'},
-  # entry_points={  # Optional
-  #     "console_scripts": [
-  #         "python_csv_fileslist=sample:main",
-  #     ],
-  # },
-  install_requires=[
-    'progress==1.6',
-    'py-essentials==1.4.12',
-  ],
+  install_requires=[],
   project_urls={
-    "Bug Reports": "https://github.com/sannjayy/python_export_file_info/issues",
+    "Bug Reports": "https://github.com/sannjayy/py-simple-email/issues",
     "Funding": "https://www.paypal.com/paypalme/znasofficial",
     "Say Thanks!": "https://saythanks.io/to/sannjayy",
-    "Source": "https://github.com/sannjayy/python_export_file_info/",
+    "Source": "https://github.com/sannjayy/py-simple-email/",
   },
 )
