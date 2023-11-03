@@ -22,9 +22,9 @@ email = Email(
     EMAIL_HOST = 'email-smtp.ap-south-1.amazonaws.com', 
     EMAIL_HOST_USER = 'XXXXXXXXXXXXXX', 
     EMAIL_HOST_PASSWORD = 'XXXXXXXXXXXXXXXXXXX', 
+    DEFAULT_FROM_EMAIL = 'Sanjay Sikdar <hello@sanjaysikdar.dev>',
     EMAIL_PORT= 587, 
     EMAIL_USE_TLS = True,
-    DEFAULT_FROM_EMAIL = 'Sanjay Sikdar <hello@sanjaysikdar.dev>',
 )
 
 # Sending Email:

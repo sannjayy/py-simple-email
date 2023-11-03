@@ -44,8 +44,8 @@ class EmailThread(threading.Thread):
                  EMAIL_HOST, 
                  EMAIL_HOST_USER, 
                  EMAIL_HOST_PASSWORD, 
-                 EMAIL_PORT, 
-                 EMAIL_USE_TLS):
+                 EMAIL_PORT=587, 
+                 EMAIL_USE_TLS=True):
         
         # Compose
         self.from_email = from_email
