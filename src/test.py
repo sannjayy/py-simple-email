@@ -30,7 +30,7 @@ html = """\
 """
 
 email.send(
-    to_email='sanjay@sanjaysikdar.dev',
+    to_email='test@sanjaysikdar.dev',
     subject='htssml test mail 1',
     msg=html,
     is_html=True

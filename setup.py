@@ -19,7 +19,7 @@ classifiers = [
  
 setup(
   name='py_simple_email',
-  version='1.0.0',
+  version='1.0.1',
   description='Python Simple Fast Email Sending without External Libs',
   long_description=long_description,
   long_description_content_type="text/markdown",
@@ -30,7 +30,7 @@ setup(
   classifiers=classifiers,
   keywords='python, smtp, email send, python send email', 
   packages=find_packages(where="src"),
-  python_requires=">=3.8, <4",   
+  python_requires=">=3.9, <4",   
   package_dir={'':'src'},
   install_requires=[],
   project_urls={
