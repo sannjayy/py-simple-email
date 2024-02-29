@@ -29,7 +29,7 @@ email = Email(
 
 # Sending Email:
 email.send(
-    to_email='me@sanjaysikdar.dev',
+    to_email=['hello@sanjaysikdar.dev', 'hello@znassolutions.com'],
     subject='Test Mail',
     msg='Hello from Simple Email.',
 )
