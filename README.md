@@ -1,5 +1,5 @@
-## Python Simple Email Sender
-Python Simple Fast Email Sending without External Library 
+## Python Simple Email Sender (using Threads)
+Python Simple Fast Email Sending Without External Library [Implemented with Multi-Threading]
 
 GitHub Repo: [https://github.com/sannjayy/py-simple-email](https://github.com/sannjayy/py-simple-email)
 ### Installaion
